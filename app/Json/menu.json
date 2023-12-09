@@ -1,0 +1,39 @@
+{
+	"beranda":[
+		{
+			"name" : "petunjuk",
+			"url" : "home/potralMenu/petujuk",
+			"text" : "Petunjuk Penggunaan"
+		},{
+			"name" : "trigonometri",
+			"url" : "home/potralMenu/trigonometri",
+			"text" : "Trigonometri"
+		},{
+			"name" : "phytagoras",
+			"url" : "home/potralMenu/phytagoras",
+			"text" : "Phytagoras"
+		}
+	],
+	"petunjuk" : [
+		{
+			"name" : "cara menjawab",
+			"url" : "petunjuk/jawab",
+			"text" : "Cara Menjawab Latihan"
+		},{
+			"name" : "pengaturan",
+			"url" : "petunjuk/pengaturan",
+			"text" : "Pengaturan"
+		}
+	],
+	"trigonometri" : [
+		{
+			"name" : "materi",
+			"url" : "materi/trigonometri",
+			"text" : "Materi"
+		},{
+			"name" : "latihan",
+			"url" : "latihan/trigonometri/1",
+			"text" : "Latihan 1"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+/* form{
+	padding: 10px;
+	display: inline-block;
+	background-color: var(--bgCForm);
+	width: 320px;
+	height: 500px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border: 4px solid #08d ;
+}
+
+.input-conteiner{
+	position: relative;
+	overflow: visible;
+}
+input, select{
+	height: 50px;
+}
+/* input, select{
+	border-radius: 10px;
+	border: none;
+	box-sizing: border-box;
+	color: #eee;
+	font-size: 18px;
+	padding: 4px 7px 0px;
+	outline: none;
+} */
+
+.cut{
+	background-color: #222;
+	height: 20px;
+	left: 20px;
+	top: -20px;
+	position: absolute;
+	transform: translateY(0) !important;
+	transition: transform 200ms width 100ms opacity 1s;
+	width: 160px;
+	opacity: 0;
+}
+
+input:focus ~ .cut,
+input:not(:placeholder-shown)~ .cut,
+select.focus ~ .cut{
+	color: red !important;
+	transform: translateY(8px) !important;
+	opacity: 1;
+}
+
+
+label{
+	color: #65657b;
+	font-family: sans-serif;
+	left: 20px;
+	line-height: 14px;
+	pointer-events: none;
+	position: absolute;
+	transform-origin: 0 50%;
+	transition: transform 200ms, color 200ms top 1ms;
+	top: 10px;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label,
+select.focus ~ label{
+	transform: translateY(-20px) translateX(10px) scale(0.9) !important;
+}
+ */

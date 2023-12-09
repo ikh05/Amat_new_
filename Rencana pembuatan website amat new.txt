@@ -1,0 +1,8 @@
+Rencana ini dapat berubah-ubah sesuai dengan kondisi lapangan
+- OOP
+- Bootstrap
+- fontAwesome
+- googleFont
+- 
+
+

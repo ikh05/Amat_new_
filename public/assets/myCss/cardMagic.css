@@ -1,0 +1,26 @@
+@property --rotateColorCard {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+.colorCard{
+  width: calc(100% + 10px);
+  background-image: linear-gradient(
+    var(--rotateColorCard), #5ddcff, #3c67e3 43%, #4e00c2);
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: -5px;
+  animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotateColorCard: 0deg;
+  }
+  100% {
+    --rotateColorCard: 360deg;
+  }
+}

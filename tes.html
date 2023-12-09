@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+</head>
+<body>
+<p>Contoh persamaan LaTeX: <span id="rendered-equation">\\\sqrt{1}</span></p>
+<script>
+    window.onload = function () {
+        // Mendapatkan persamaan LaTeX dari elemen span
+        var equationElement = document.getElementById("rendered-equation");
+        var latexEquation = equationElement.textContent;
+
+        // Buat elemen span baru untuk merender persamaan
+        // var renderedEquationElement = document.createElement("span");
+
+        // Melakukan render persamaan menggunakan KaTeX
+        katex.render(latexEquation, equationElement, {
+            throwOnError: false // Parameter ini memungkinkan penanganan kesalahan
+        });
+
+        // Gantikan elemen asli dengan elemen yang dirender
+        // equationElement.parentNode.replaceChild(renderedEquationElement, equationElement);
+    }
+</script>
+</body>
+</html>
